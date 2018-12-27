@@ -52,4 +52,22 @@ public class LeetcodeTest {
         assertThat(solution.longestCommonPrefix(new String[]{"flower", "flow", "flight"})).isEqualTo("fl");
         assertThat(solution.longestCommonPrefix(new String[]{"dog", "racecar", "car"})).isEqualTo("");
     }
+
+    @Test
+    public void test20() {
+        ValidParentheses solution = new ValidParentheses();
+        assertThat(solution.isValid("()")).isEqualTo(true);
+        assertThat(solution.isValid("()[]{}")).isEqualTo(true);
+        assertThat(solution.isValid("(]")).isEqualTo(false);
+        assertThat(solution.isValid("([)]")).isEqualTo(false);
+        assertThat(solution.isValid("{[]}")).isEqualTo(true);
+        assertThat(solution.isValid("((")).isEqualTo(false);
+
+        assertThat(solution.isValid1("()")).isEqualTo(true);
+        assertThat(solution.isValid1("()[]{}")).isEqualTo(true);
+        assertThat(solution.isValid1("(]")).isEqualTo(false);
+        assertThat(solution.isValid1("([)]")).isEqualTo(false);
+        assertThat(solution.isValid1("{[]}")).isEqualTo(true);
+        assertThat(solution.isValid1("((")).isEqualTo(false);
+    }
 }

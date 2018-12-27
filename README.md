@@ -6,6 +6,7 @@ Solutions for problems on [LeetCode Online Judge](https://leetcode.com/).
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Source](./src/main/java/io/xkniu/github/leetcode/ValidParentheses.java) | Easy |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Source](./src/main/java/io/xkniu/github/leetcode/LongestCommonPrefix.java) | Easy |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Source](./src/main/java/io/xkniu/github/leetcode/RomanToInteger.java) | Easy |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Source](./src/main/java/io/xkniu/github/leetcode/PalindromeNumber.java) | Easy |
