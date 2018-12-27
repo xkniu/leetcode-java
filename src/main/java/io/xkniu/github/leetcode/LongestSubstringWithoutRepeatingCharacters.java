@@ -1,6 +1,11 @@
+package io.xkniu.github.leetcode;
+
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * #3, https://leetcode.com/problems/longest-substring-without-repeating-characters/
+ */
 public class LongestSubstringWithoutRepeatingCharacters {
 
     public int lengthOfLongestSubstring(String s) {
