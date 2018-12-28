@@ -70,4 +70,9 @@ public class LeetcodeTest {
         assertThat(solution.isValid1("{[]}")).isEqualTo(true);
         assertThat(solution.isValid1("((")).isEqualTo(false);
     }
+
+    @Test
+    public void test21() {
+        MergeTwoSortedLists mergeTwoSortedLists = new MergeTwoSortedLists();
+    }
 }
