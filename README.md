@@ -2,10 +2,33 @@
 
 Solutions for problems on [LeetCode Online Judge](https://leetcode.com/).
 
+Add comments on the source file in this format:
+
+```java
+/**
+ * #${problem_id}, ${url}
+ */
+```
+
+Such as, the first problem:
+
+```java
+/**
+ * #1, https://leetcode.com/problems/two-sum/
+ */
+```
+
+Then generate this README file by script:
+
+```bash
+./update_readme.sh
+```
+
 ## Algorithms
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Source](./src/main/java/io/xkniu/github/leetcode/MergeTwoSortedLists.java) | Easy |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Source](./src/main/java/io/xkniu/github/leetcode/ValidParentheses.java) | Easy |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Source](./src/main/java/io/xkniu/github/leetcode/LongestCommonPrefix.java) | Easy |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Source](./src/main/java/io/xkniu/github/leetcode/RomanToInteger.java) | Easy |
