@@ -49,7 +49,8 @@ public class LeetcodeTest {
     @Test
     public void test14() {
         LongestCommonPrefix solution = new LongestCommonPrefix();
-        assertThat(solution.longestCommonPrefix(new String[]{"flower", "flow", "flight"})).isEqualTo("fl");
+        assertThat(solution.longestCommonPrefix(new String[]{"flower", "flow", "flight"}))
+            .isEqualTo("fl");
         assertThat(solution.longestCommonPrefix(new String[]{"dog", "racecar", "car"})).isEqualTo("");
     }
 
@@ -74,5 +75,16 @@ public class LeetcodeTest {
     @Test
     public void test21() {
         MergeTwoSortedLists mergeTwoSortedLists = new MergeTwoSortedLists();
+        // too lazy to prepare test data
+    }
+
+    @Test
+    public void test26() {
+        RemoveDuplicatesFromSortedArray solution = new RemoveDuplicatesFromSortedArray();
+        assertThat(solution.removeDuplicates(new int[]{})).isEqualTo(0);
+        assertThat(solution.removeDuplicates(new int[]{1, 1, 2})).isEqualTo(2);
+        assertThat(solution.removeDuplicates(new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4})).isEqualTo(5);
+        assertThat(solution.removeDuplicates(new int[]{1, 2})).isEqualTo(2);
+        assertThat(solution.removeDuplicates(new int[]{1, 2, 2})).isEqualTo(2);
     }
 }

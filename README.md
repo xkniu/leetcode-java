@@ -28,6 +28,7 @@ Then generate this README file by script:
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/RemoveDuplicatesFromSortedArray.java) | Easy |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Source](./src/main/java/io/xkniu/github/leetcode/MergeTwoSortedLists.java) | Easy |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Source](./src/main/java/io/xkniu/github/leetcode/ValidParentheses.java) | Easy |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Source](./src/main/java/io/xkniu/github/leetcode/LongestCommonPrefix.java) | Easy |
