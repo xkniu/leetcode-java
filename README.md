@@ -28,6 +28,8 @@ Then generate this README file by script:
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+| 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Source](./src/main/java/io/xkniu/github/leetcode/ImplementStrStr.java) | Easy |
+| 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Source](./src/main/java/io/xkniu/github/leetcode/RemoveElement.java) | Easy |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/RemoveDuplicatesFromSortedArray.java) | Easy |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Source](./src/main/java/io/xkniu/github/leetcode/MergeTwoSortedLists.java) | Easy |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Source](./src/main/java/io/xkniu/github/leetcode/ValidParentheses.java) | Easy |

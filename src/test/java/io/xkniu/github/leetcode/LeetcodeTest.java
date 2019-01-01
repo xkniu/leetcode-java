@@ -87,4 +87,19 @@ public class LeetcodeTest {
         assertThat(solution.removeDuplicates(new int[]{1, 2})).isEqualTo(2);
         assertThat(solution.removeDuplicates(new int[]{1, 2, 2})).isEqualTo(2);
     }
+
+    @Test
+    public void test27() {
+        RemoveElement solution = new RemoveElement();
+        assertThat(solution.removeElement(new int[]{3, 2, 2, 3}, 3)).isEqualTo(2);
+        assertThat(solution.removeElement(new int[]{0, 1, 2, 2, 3, 0, 4, 2}, 2)).isEqualTo(5);
+    }
+
+    @Test
+    public void test28() {
+        ImplementStrStr solution = new ImplementStrStr();
+        assertThat(solution.strStr("ohayou", "")).isEqualTo(0);
+        assertThat(solution.strStr("hello", "ll")).isEqualTo(2);
+        assertThat(solution.strStr("aaaaa", "bba")).isEqualTo(-1);
+    }
 }
