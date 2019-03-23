@@ -102,4 +102,18 @@ public class LeetcodeTest {
         assertThat(solution.strStr("hello", "ll")).isEqualTo(2);
         assertThat(solution.strStr("aaaaa", "bba")).isEqualTo(-1);
     }
+
+    @Test
+    public void test35() {
+        SearchInsertPosition solution = new SearchInsertPosition();
+        assertThat(solution.searchInsert(new int[]{1, 3, 5, 6}, 5)).isEqualTo(2);
+        assertThat(solution.searchInsert(new int[]{1, 3, 5, 6}, 2)).isEqualTo(1);
+        assertThat(solution.searchInsert(new int[]{1, 3, 5, 6}, 7)).isEqualTo(4);
+        assertThat(solution.searchInsert(new int[]{1, 3, 5, 6}, 0)).isEqualTo(0);
+
+        assertThat(solution.searchInsert1(new int[]{1, 3, 5, 6}, 0)).isEqualTo(0);
+        assertThat(solution.searchInsert1(new int[]{1, 3, 5, 6}, 0)).isEqualTo(0);
+        assertThat(solution.searchInsert1(new int[]{1, 3, 5, 6}, 0)).isEqualTo(0);
+        assertThat(solution.searchInsert1(new int[]{1, 3, 5, 6}, 0)).isEqualTo(0);
+    }
 }

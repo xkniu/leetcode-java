@@ -28,6 +28,7 @@ Then generate this README file by script:
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Source](./src/main/java/io/xkniu/github/leetcode/SearchInsertPosition.java) | Easy |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Source](./src/main/java/io/xkniu/github/leetcode/ImplementStrStr.java) | Easy |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Source](./src/main/java/io/xkniu/github/leetcode/RemoveElement.java) | Easy |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/RemoveDuplicatesFromSortedArray.java) | Easy |
