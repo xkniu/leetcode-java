@@ -29,6 +29,7 @@ Then generate this README file by script:
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Source](./src/main/java/io/xkniu/github/leetcode/FirstBadVersion.java) | Easy |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/FindMinimumInRotatedSortedArray.java) | Medium |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Source](./src/main/java/io/xkniu/github/leetcode/SearchInsertPosition.java) | Easy |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/SearchInRotatedSortedArray.java) | Medium |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Source](./src/main/java/io/xkniu/github/leetcode/ImplementStrStr.java) | Easy |
