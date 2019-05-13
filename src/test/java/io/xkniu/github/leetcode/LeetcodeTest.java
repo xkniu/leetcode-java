@@ -4,6 +4,9 @@ import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * 想写就写，佛系 test。。。可能直接用 leetcode 构造 test case 了，准备用例略麻烦
+ */
 public class LeetcodeTest {
 
     @Test
@@ -115,5 +118,12 @@ public class LeetcodeTest {
         assertThat(solution.searchInsert1(new int[]{1, 3, 5, 6}, 0)).isEqualTo(0);
         assertThat(solution.searchInsert1(new int[]{1, 3, 5, 6}, 0)).isEqualTo(0);
         assertThat(solution.searchInsert1(new int[]{1, 3, 5, 6}, 0)).isEqualTo(0);
+    }
+
+    @Test
+    public void test162() {
+        FindPeakElement solution = new FindPeakElement();
+        assertThat(solution.findPeakElement(new int[]{1,2,3,1})).isEqualTo(2);
+        assertThat(solution.findPeakElement(new int[]{1,2,1,3,5,6,4})).isEqualTo(5);
     }
 }
