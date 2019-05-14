@@ -28,6 +28,7 @@ Then generate this README file by script:
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+| 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/PeakIndexInAMountainArray.java) | Easy |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Source](./src/main/java/io/xkniu/github/leetcode/FirstBadVersion.java) | Easy |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Source](./src/main/java/io/xkniu/github/leetcode/FindPeakElement.java) | Medium |
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/FindMinimumInRotatedSortedArray.java) | Medium |
