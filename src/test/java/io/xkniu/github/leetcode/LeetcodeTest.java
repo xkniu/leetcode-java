@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * 想写就写，佛系 test。。。可能直接用 leetcode 构造 test case 了，准备用例略麻烦
+ * 想写就写，佛系 test...对于比较难构造的 case，直接用 leetcode 页面进行测试
  */
 public class LeetcodeTest {
 
