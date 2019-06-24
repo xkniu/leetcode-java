@@ -39,13 +39,6 @@ public class MergeTwoSortedLists {
             return l2;
         }
     }
-
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
 }
 
 
