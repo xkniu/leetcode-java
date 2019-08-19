@@ -35,8 +35,10 @@ Then generate this README file by script:
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/RotateArray.java) | Easy |
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Source](./src/main/java/io/xkniu/github/leetcode/TwoSumII.java) | Easy |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Source](./src/main/java/io/xkniu/github/leetcode/FindPeakElement.java) | Medium |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Source](./src/main/java/io/xkniu/github/leetcode/IntersectionOfTwoLinkedLists.java) | Easy |
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/FindMinimumInRotatedSortedArray.java) | Medium |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Source](./src/main/java/io/xkniu/github/leetcode/ReverseLinkedListII.java) | Medium |
+| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Source](./src/main/java/io/xkniu/github/leetcode/RemoveDuplicatesFromSortedList.java) | Easy |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Source](./src/main/java/io/xkniu/github/leetcode/SearchInsertPosition.java) | Easy |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/FindFirstAndLastPositionOfElementInSortedArray.java) | Medium |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/SearchInRotatedSortedArray.java) | Medium |
@@ -45,6 +47,7 @@ Then generate this README file by script:
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/RemoveDuplicatesFromSortedArray.java) | Easy |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Source](./src/main/java/io/xkniu/github/leetcode/MergeTwoSortedLists.java) | Easy |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Source](./src/main/java/io/xkniu/github/leetcode/ValidParentheses.java) | Easy |
+| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Source](./src/main/java/io/xkniu/github/leetcode/RemoveNthNodeFromEndOfList.java) | Medium |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Source](./src/main/java/io/xkniu/github/leetcode/LongestCommonPrefix.java) | Easy |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Source](./src/main/java/io/xkniu/github/leetcode/RomanToInteger.java) | Easy |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Source](./src/main/java/io/xkniu/github/leetcode/PalindromeNumber.java) | Easy |
