@@ -37,6 +37,8 @@ Then generate this README file by script:
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Source](./src/main/java/io/xkniu/github/leetcode/FindPeakElement.java) | Medium |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Source](./src/main/java/io/xkniu/github/leetcode/IntersectionOfTwoLinkedLists.java) | Easy |
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/FindMinimumInRotatedSortedArray.java) | Medium |
+| 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Source](./src/main/java/io/xkniu/github/leetcode/BalancedBinaryTree.java) | Easy |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Source](./src/main/java/io/xkniu/github/leetcode/MaximumDepthOfBinaryTree.java) | Easy |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Source](./src/main/java/io/xkniu/github/leetcode/ReverseLinkedListII.java) | Medium |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Source](./src/main/java/io/xkniu/github/leetcode/RemoveDuplicatesFromSortedList.java) | Easy |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Source](./src/main/java/io/xkniu/github/leetcode/SearchInsertPosition.java) | Easy |
