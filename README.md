@@ -31,9 +31,11 @@ Then generate this README file by script:
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/PeakIndexInAMountainArray.java) | Easy |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Source](./src/main/java/io/xkniu/github/leetcode/AverageOfLevelsInBinaryTree.java) | Easy |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Source](./src/main/java/io/xkniu/github/leetcode/MergeTwoBinaryTrees.java) | Easy |
+| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Source](./src/main/java/io/xkniu/github/leetcode/SubtreeOfAnotherTree.java) | Easy |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Source](./src/main/java/io/xkniu/github/leetcode/DiameterOfBinaryTree.java) | Easy |
 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [Source](./src/main/java/io/xkniu/github/leetcode/FindBottomLeftTreeValue.java) | Medium |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Source](./src/main/java/io/xkniu/github/leetcode/AddTwoNumbersII.java) | Medium |
+| 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | [Source](./src/main/java/io/xkniu/github/leetcode/PathSumIII.java) | Easy |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Source](./src/main/java/io/xkniu/github/leetcode/IntersectionOfTwoArrays.java) | Easy |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Source](./src/main/java/io/xkniu/github/leetcode/FirstBadVersion.java) | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Source](./src/main/java/io/xkniu/github/leetcode/InvertBinaryTree.java) | Easy |
@@ -44,6 +46,7 @@ Then generate this README file by script:
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Source](./src/main/java/io/xkniu/github/leetcode/IntersectionOfTwoLinkedLists.java) | Easy |
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/FindMinimumInRotatedSortedArray.java) | Medium |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [Source](./src/main/java/io/xkniu/github/leetcode/PathSum.java) | Easy |
+| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Source](./src/main/java/io/xkniu/github/leetcode/MinimumDepthOfBinaryTree.java) | Easy |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Source](./src/main/java/io/xkniu/github/leetcode/BalancedBinaryTree.java) | Easy |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Source](./src/main/java/io/xkniu/github/leetcode/MaximumDepthOfBinaryTree.java) | Easy |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Source](./src/main/java/io/xkniu/github/leetcode/SymmetricTree.java) | Easy |
