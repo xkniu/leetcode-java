@@ -5,7 +5,7 @@ import re
 
 def get_problem_info_map():
     '''
-    p_id -> (p_slug, p_title, p_difficulity)
+    p_id -> (p_slug, p_title, p_difficulty)
     '''
     r = requests.get('https://leetcode.com/api/problems/all/')
     json_data = json.loads(r.text)
@@ -15,8 +15,8 @@ def get_problem_info_map():
         p_id = _['stat']['frontend_question_id']
         p_slug = _['stat']['question__title_slug']
         p_title = _['stat']['question__title']
-        p_difficulity = ('Easy', 'Medium', 'Hard')[_['difficulty']['level'] - 1]
-        r[p_id] = (p_slug, p_title, p_difficulity)
+        p_difficulty = ('Easy', 'Medium', 'Hard')[_['difficulty']['level'] - 1]
+        r[p_id] = (p_slug, p_title, p_difficulty)
     return r
 
 
@@ -53,32 +53,30 @@ def get_source_info_map(basepath):
 
 # base info
 source_base_path = './src/main/java/io/xkniu/github/leetcode/'
+table_summary = 'Summary: {0}\n'
 table_header = '| # | Title | Solution | Difficulty |\n|---| ----- | -------- | ---------- |'
-table_row_solved = '| {pid} | [{title}](https://leetcode.com/problems/{slug}/) | [Source]({source}) | {difficulity} |'
-table_row_unsolved = '| {pid} | [{title}](https://leetcode.com/problems/{slug}/) | - | {difficulity} |'
+table_row = '| {pid} | [{title}](https://leetcode.com/problems/{slug}/) | [Source]({source}) | {difficulty} |'
 
 # configuration
-with_header = True
-with_unsolved = False
-row_reverse = True
-
+with_summary = True
+row_reversed = True
 
 pm = get_problem_info_map()
 sm = get_source_info_map(source_base_path)
 
-table = []
-if with_header:
-    table.append(table_header)
-
-for k in sorted(pm, reverse=row_reverse):
+table = [table_header]
+summary_info = {}
+for k in sorted(pm, reverse=row_reversed):
     v = pm[k]
 
     if k in sm:
-        row = table_row_solved.format(pid=k, title=v[1], slug=v[0], source=sm[k][1], difficulity=v[2])
+        row = table_row.format(pid=k, title=v[1], slug=v[0], source=sm[k][1], difficulty=v[2])
         table.append(row)
-    elif with_unsolved:
-        row = table_row_unsolved.format(pid=k, title=v[1], slug=v[0], difficulity=v[2])
-        table.append(row)
+        summary_info[v[2]] = summary_info.get(v[2], 0) + 1
+
+if with_summary:
+    summary = table_summary.format(summary_info)
+    table.insert(0, summary)
 
 for _ in table:
     print(_)

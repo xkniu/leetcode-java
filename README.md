@@ -26,6 +26,8 @@ Then generate this README file by script:
 
 ## Algorithms
 
+Summary: {'Easy': 30, 'Medium': 10}
+
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Source](./src/main/java/io/xkniu/github/leetcode/PeakIndexInAMountainArray.java) | Easy |
