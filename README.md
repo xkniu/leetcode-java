@@ -26,7 +26,7 @@ Then generate this README file by script:
 
 ## Algorithms
 
-Summary: {'Easy': 30, 'Medium': 10}
+Summary: {'Easy': 31, 'Medium': 10}
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -38,6 +38,7 @@ Summary: {'Easy': 30, 'Medium': 10}
 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [Source](./src/main/java/io/xkniu/github/leetcode/FindBottomLeftTreeValue.java) | Medium |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Source](./src/main/java/io/xkniu/github/leetcode/AddTwoNumbersII.java) | Medium |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | [Source](./src/main/java/io/xkniu/github/leetcode/PathSumIII.java) | Easy |
+| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [Source](./src/main/java/io/xkniu/github/leetcode/SumOfLeftLeaves.java) | Easy |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Source](./src/main/java/io/xkniu/github/leetcode/IntersectionOfTwoArrays.java) | Easy |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Source](./src/main/java/io/xkniu/github/leetcode/FirstBadVersion.java) | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Source](./src/main/java/io/xkniu/github/leetcode/InvertBinaryTree.java) | Easy |
